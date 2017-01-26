@@ -78,6 +78,7 @@ $ jq . < /tmp/image-out/blobs/sha256/cb8472e2cf25fade21595a0f98821e62982a58e2e65
 	}
     ]
 }
+```
 
 A regular file in the prestart archive `4e53c...` contains the `size` of the corresponding file in the layer archive `4b0bc...`.
 ```console
