@@ -26,7 +26,7 @@ type LayerDescriptor struct {
 	spec.Descriptor
 	// PrestatDigest is an OPTIONAL digest value of the "prestat" file of the layer.
 	//
-	// A "prestat" file MUST have the same mediatype, tar structure, digest algorithm.
+	// A "prestat" file MUST have the same mediatype, tar structure, digest algorithm as the corresponding layer file.
 	// A regular file in the "prestat" tar MUST be a JSON contains a valid Prestat JSON string.
 	//
 	// <TLDR> Using the "prestat" tar, a runtime can let files appear before pulling the corresponding layer.</TLDR>
