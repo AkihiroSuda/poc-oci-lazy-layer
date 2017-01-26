@@ -16,7 +16,6 @@ func init() {
 	flag.StringVar(&outImage, "image.out", "", "path to output image dir")
 	flag.StringVar(&inImage, "image.in", "", "path to input image dir")
 	flag.StringVar(&ref, "image.ref", "latest", "image ref")
-	flag.BoolVar(&removeOld, "image.removeold", false, "remove old digest that might be orphan")
 }
 
 // usage: go test -v -image.in /tmp/in -image.out /tmp/out -image.ref latest .
