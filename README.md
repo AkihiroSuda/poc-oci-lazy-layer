@@ -1,3 +1,8 @@
+# This repo is archived. See https://github.com/AkihiroSuda/filegrain
+
+
+- - -
+
 # [PROPOSAL] Lazy-loadable layer support for OCI image spec
 
 TLDR: Let files appear before pulling layers
